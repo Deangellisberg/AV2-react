@@ -1,0 +1,47 @@
+/* Tarefa.css */
+
+.App-Tarefa {
+  text-align: center;
+}
+
+.Tarefa-Container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.Tarefa-Item {
+  list-style: none;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #9b0000;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.Tarefa-Item div {
+  margin-bottom: 5px;
+}
+
+.Header {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Botões */
+.Tarefa-Item button {
+  margin-right: 5px;
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.Tarefa-Item button.finalizado {
+  background-color: #28a745; /* Verde */
+  color: #f5f5f5;
+}
+
+.Tarefa-Item button.excluir {
+  background-color: #dc3545; /* Vermelho */
+  color: #fff;
+}
